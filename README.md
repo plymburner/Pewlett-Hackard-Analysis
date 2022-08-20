@@ -14,11 +14,11 @@ SQL Analysis of Employees
         6. Export the various tables to track the progress and result sets
 
 ## Analysis and Challenges
-    The data provided good opportunities to segment the data across the different tables.
+    The data provided good opportunities to pull together the data across tables to perform an analysis of the data.
     Analysis:
-        1. 
+        1. Using the distinct on function worked well to reduce the number of rows in the title table since it holds the employment history of the employee. However when using the where clause to look for the end data of '9999-01-01', it elimintated all the previous titles and only left the current employees' current title.
     Challenges:
-        1.
+        1. I found at one point where the counts weren't adding up and resorted to using flags to be able to visually verify the data, i.e. employee in the retiring birth date range, and run counts to ensure the values were consistent from one step to another.
 
 ### Analysis of Outcomes Based on Query Results
     Outcomes:
